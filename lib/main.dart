@@ -1,9 +1,15 @@
 import 'package:flutter/material.dart';
 
-//mainメソッド　このアプリの出発点です。
+//mainメソッド　このアプリの出発点
 void main() {
   runApp(
+    //マテリアルデザインのアプリを管理するクラス
+    //MaterialApp(title:〇〇 , home:〇〇);
+    //title:アプリのタイトル　home:Widgetを書いていく
     MaterialApp(
+      //Scaffold：足場　標準的なアプリ作成の土台となるクラス
+      //Scaffold(appBar:〇〇 , body:〇〇);
+      //appBar:アプリ上部に表示されるバー　body:空白エリア
       home: Scaffold(
         appBar: AppBar(
           title: Text('おおさんしょうお'),
